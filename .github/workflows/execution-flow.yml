@@ -81,6 +81,6 @@ jobs:
     steps:
       - name: Report failure
         run: |
-          echo "Something went wrong!"
+          echo "Something went wrong!!"
           echo "${{ toJson(github) }}"
 
